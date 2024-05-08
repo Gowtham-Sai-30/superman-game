@@ -1,3 +1,3 @@
 # superman-game
 <br>
-author-gowtham sai
+author-gowtham
