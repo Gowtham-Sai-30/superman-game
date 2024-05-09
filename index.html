@@ -17,11 +17,24 @@
             border: solid 2px black;
         }
     </style>
+
     <div class="layout">
             <p>YOUR MINOR OR MAJOR</p>
             <br>
             <button onclick="minor()">MINOR</button>
             <button onclick="major()">MAJOR</button>
+            <p id="display"></p>
     </div>
+
+    <script>
+            function minor()
+            {
+                document.getElementById('display').innerHTML="YOUR ARE A MINOR";
+            }
+            function major()
+            {
+                document.getElementById('display').innerHTML="YOUR ARE A MAJOR";
+            }
+    </script>
 </body>
 </html>
